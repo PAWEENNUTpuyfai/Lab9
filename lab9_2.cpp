@@ -3,7 +3,18 @@
 #include<string>
 using namespace std;
 
-//[Missing Code 1] Write definition of the function findGrade() here.
+double findGrade(double num){
+    if(num >90)
+        return'A';
+    else if (num >75)
+        return'B';
+    else if (num >60)
+        return 'C';
+    else if (num >45)
+        return 'D';
+    else 
+        return 'F';
+}
 
 int main(){
 	//Input the number of students
